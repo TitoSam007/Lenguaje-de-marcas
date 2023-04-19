@@ -1,0 +1,15 @@
+.div_gen{border: 3px solid red;
+    width: 300px;
+    position: relative;
+    margin: 20px auto;    
+    height: 300px;
+}
+
+.divE{width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+.divR{background-color: orangered;}
+.divG{background-color: greenyellow;}
+.divB{background-color: skyblue;}
+.divY{background-color: yellow;}

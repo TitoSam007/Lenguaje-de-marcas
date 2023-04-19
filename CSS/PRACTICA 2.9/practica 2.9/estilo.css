@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://static.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+   color: grey;
+}
+
+th {
+    color: #e89e10;
+    font-weight: bolder;
+    background-color: darkblue;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+th, td {
+    border: thick solid black;
+}
+
+td {
+    padding: 0.6em;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table {
+    position: fixed;
+    left: 40%;
+    top:  20%;
+    border-collapse: collapse;
+    caption-side: top;
+}
+
+table:last-child tr:last-child {
+    background-color: black;
+}
+
+table:last-child tr:last-child td {
+    color: white;
+}
+
+table:last-child tr:last-child td:last-child {
+    text-decoration: underline;
+}
+
+p {
+    position: fixed;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 10%;
+    left: 38%;
+
+}
+

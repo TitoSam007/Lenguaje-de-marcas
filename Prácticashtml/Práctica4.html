@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica4</title>
+</head>
+
+<body>
+
+
+  <form action="loquesea.php" method="get"  border="1px">
+      
+      <fieldset>
+
+          <legend>Infomación del usuario</legend>
+
+          <label for="user">Nombre de usuario:</label>
+          <input type="text" id="user" name="user"><br>
+
+          <label for="clave">Contraseña de Usuario:</label>
+          <input type="password" id="clave" name="clave"><br>
+
+          <label for="mail">Correo asociado:</label>
+          <input type="text" name="mail" id="mail" value="ejemplo@gmail.com">
+
+      </fieldset>
+
+      <fieldset>
+
+          <legend>Información sobre la nconsulta</legend>
+          PLataforma:<br>
+          <input type="radio" name="lenguaje" value="">PLaystation<br>
+          <input type="radio" name="lenguaje" value="">XBOX<br>
+          <input type="radio" name="lenguaje" value="">PC<br>
+          <input type="radio" name="lenguaje" value="">PonyStation<br>
+
+          Comtario:<br>
+
+          <textarea name="comentario"  rows="10" cols="40"></textarea><br>
+
+          <select multiple name="tec">
+
+              <option selected value="1">Físico</option><br>
+              <option selected value="2">Dígital</option><br>
+          </select>
+
+
+      </fieldset>
+
+      <fieldset>
+
+          <legend> Acuerdos de usuario</legend>
+          <a href="https://www.youtube.com/watch?v=ipokN4fDKHM" >Hacga click aqui</a>
+          <br>
+
+          Esta deacuerdo con los acurdos estipulados:<br>
+
+          <input type="checkbox" name="newsletter">si<br>
+          <input type="checkbox" name="newsletter">no<br>
+          La pagina oficial de su juego <input type="url"><br>
+          
+
+      </fieldset>
+
+      <input type="submit">
+      <input type="reset">
+
+  </form>
+
+
+
+</body>
+
+<html>

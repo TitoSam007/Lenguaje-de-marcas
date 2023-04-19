@@ -1,0 +1,37 @@
+/*Decoración*/
+#menuvertical{
+    margin: 0px 10px;
+    width: 150px;
+    background-color: darkgreen;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    
+}
+ul{
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+/*Comportamiento*/
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: inline-block;
+    background-color: seagreen;
+    position: absolute;
+    left: 150px;
+}
+
+
